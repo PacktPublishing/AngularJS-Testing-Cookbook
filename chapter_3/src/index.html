@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="chapter3.ui.router">
+
+<head>
+  <script type="text/javascript" src="https://code.angularjs.org/1.2.28/angular.min.js"></script>
+  <script type="text/javascript" src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+
+  <!-- include source files here... -->
+  <script type="text/javascript" src="cookbook.js"></script>
+</head>
+
+<body>
+  <div ui-view>
+    <button ng-click="loadEmcee(1)">load</button>
+  </div>
+  <script type="text/ng-template" id="home.html"></script>
+  <script type="text/ng-template" id="emcees.html"></script>
+</body>
+
+</html>
