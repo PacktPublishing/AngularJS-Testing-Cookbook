@@ -11,7 +11,7 @@ AngularJS Testing Cookbook is for AngularJS developers who want to test their we
 3. cd chapter_5 && protractor protractor.conf.js
 
 
-## Related AngularJs books from Packt:
+## Related AngularJS books from Packt:
 - [AngularJS Directives Cookbook](https://www.packtpub.com/web-development/angularjs-directives-cookbook?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
 - [AngularJS Test-driven Development ](https://www.packtpub.com/web-development/angularjs-test-driven-development?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
 - [AngularJS Web Application Development Cookbook ](https://www.packtpub.com/web-development/angularjs-web-application-development-cookbook?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
