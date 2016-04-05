@@ -1,0 +1,10 @@
+{
+	"framework": "jasmine",
+	"src_files": [
+		"lib/angular/angular.js",
+		"lib/angular/angular-mocks.js",
+		"src/cookbook.js",
+		"test/cookbookSpec.js"
+	],
+	"launch_in_dev": ["Chrome"]
+}

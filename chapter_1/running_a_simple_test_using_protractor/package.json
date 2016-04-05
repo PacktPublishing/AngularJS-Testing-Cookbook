@@ -1,0 +1,5 @@
+{
+	"devDependencies": {
+		"protractor": "^0.24.0"
+	}
+}

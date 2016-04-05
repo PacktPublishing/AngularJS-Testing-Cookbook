@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "protractor": "^1.0.0"
+  }
+}
