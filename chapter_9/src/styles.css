@@ -1,0 +1,42 @@
+h2 {
+  color: #ab171a;
+}
+
+.hint-wrapper {
+  margin: 1rem 0 0 0;
+}
+
+.hint-container {
+  margin: 1rem 0 0 0;
+  width: 350px;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: normal;
+  position: relative;
+  padding: 0.7rem 1.3rem 0.7rem 0.7rem;
+  background-color: #c10000;
+  border-color: #ab171a;
+  color: #FFFFFF;
+}
+
+.transition-in,
+.transition-out {
+  -webkit-transition:all linear 1s;
+  -moz-transition:all linear 1s;
+  -o-transition:all linear 1s;
+  transition:all linear 1s;
+}
+
+.transition-in.ng-hide-remove,
+.transition-out.ng-hide-add.ng-hide-add-active {
+  opacity: 0;
+  left: -400px;
+  display: block !important;
+}
+
+.transition-out.ng-hide-add,
+.transition-in.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+  left: 0;
+  display: block !important;
+}
