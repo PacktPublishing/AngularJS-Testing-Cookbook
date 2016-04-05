@@ -2,13 +2,16 @@ This is the code repository for the book [AngularJS Testing Cookbook](https://ww
 
 AngularJS Testing Cookbook is for AngularJS developers who want to test their web applications developed using the framework. Developers with a basic comprehension of AngularJS and test-related concepts will find examples of how to test core components with the AngularJS framework and server to form a foundation for further development.
 
-Running Protractor in chapter 5:
+### Running Protractor in chapter 5:
+
 1. cd chapter_5/src && python -m SimpleHTTPServer 8000
+
 2. cd chapter_5 && webdriver-manager start
+
 3. cd chapter_5 && protractor protractor.conf.js
 
 
-# Related AngularJs books from Packt:
+## Related AngularJs books from Packt:
 - [AngularJS Directives Cookbook](https://www.packtpub.com/web-development/angularjs-directives-cookbook?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
 - [AngularJS Test-driven Development ](https://www.packtpub.com/web-development/angularjs-test-driven-development?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
 - [AngularJS Web Application Development Cookbook ](https://www.packtpub.com/web-development/angularjs-web-application-development-cookbook?utm_source=github&utm_medium=related&utm_campaign=9781783983742)
