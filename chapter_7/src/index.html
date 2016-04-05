@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="cookbook">
+
+<head>
+    <script type="text/javascript" src="https://code.angularjs.org/1.2.28/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+    <!-- include source files here... -->
+    <script type="text/javascript" src="cookbook.js"></script>
+</head>
+
+<body ng-controller="HomeCtrl">
+    <input ng-model="decimal">
+    <button ng-click="onClick()">Filter</button>
+    <div stop-watch ng-model="timer">
+        <span>{{timer.current | secondsToTime}}</span>
+        <button ng-click="onStartTimer()">{{!timer.running && 'Start' || 'Stop'}}</button>
+        <button ng-click="onResetTimer()">Reset</button>
+    </div>
+</body>
+
+</html>
